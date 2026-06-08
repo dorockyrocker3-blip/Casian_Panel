@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/kasian_panel/static/css/main.9da73a99.css",
+    "main.js": "/kasian_panel/static/js/main.0484ac74.js",
+    "static/js/453.8b1da47c.chunk.js": "/kasian_panel/static/js/453.8b1da47c.chunk.js",
+    "static/media/Rubik-Bold.ttf": "/kasian_panel/static/media/Rubik-Bold.c934eb22c2c69992b34c.ttf",
+    "static/media/mainBackgroundRed.png": "/kasian_panel/static/media/mainBackgroundRed.1157de7ee85b9c4bbb54.png",
+    "static/media/mainBackgroundGreen.png": "/kasian_panel/static/media/mainBackgroundGreen.53b19e6ec9aadcfcf83a.png",
+    "static/media/icon.jpg": "/kasian_panel/static/media/icon.7bc764b45b2e733941bc.jpg",
+    "static/media/QRcode.png": "/kasian_panel/static/media/QRcode.7ce36b52f710cf34dc90.png",
+    "index.html": "/kasian_panel/index.html",
+    "main.9da73a99.css.map": "/kasian_panel/static/css/main.9da73a99.css.map",
+    "main.0484ac74.js.map": "/kasian_panel/static/js/main.0484ac74.js.map",
+    "453.8b1da47c.chunk.js.map": "/kasian_panel/static/js/453.8b1da47c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9da73a99.css",
+    "static/js/main.0484ac74.js"
+  ]
+}
