@@ -1,0 +1,155 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik';
+  overflow-x: hidden;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* background-color: #3654ff; */
+}
+
+body {
+  background-color: rgb(23, 23, 23);
+}
+
+header {
+  background-color: rgb(26, 26, 26);
+  padding: 2vh 2%;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(./fonts/Rubik-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  color: aqua;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.inputs-list {
+  margin: 5vh 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input-box {
+
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.input-box p {
+  color: white;
+  margin-bottom: 0.5vh;
+}
+
+.input {
+  background-color: #212121;
+  padding: 10px;
+  height: 2vh;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  /*box-shadow: 3px 3px 2px rgb(255, 0, 251); */
+}
+
+.input:focus {
+  color: rgb(0, 255, 255);
+  background-color: #212121;
+  outline-color: rgb(0, 255, 255);
+  box-shadow: -3px -3px 15px rgb(0, 255, 255);
+  transition: .1s;
+  transition-property: box-shadow;
+}
+
+.type-list{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.button-generate {
+  padding: 1vh 5%;
+  margin-bottom: 1vh;
+  background-color: #ffffff00;
+  color: #fff;
+  border: #3654ff 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+}
+
+.button-generate:hover {
+  background-color: #3654ff;
+  cursor: pointer;
+}
+
+.text {
+  margin: 0 1.5em
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+  transition: 0.6s ease-in-out;
+  text-align: center;
+}
+
+.selected {
+  color: white;
+}
+
+.long-selected {
+  background-color: green;
+}
+
+.short-selected {
+  background-color: red;
+}
+
+.realized-selected {
+  background-color: blue;
+}
+
+.unrealized-selected {
+  background-color: orange;
+}
+
+.percent-selected {
+  background-color: purple;
+}
+
+.dollar-selected {
+  background-color: teal;
+}
+
+#marja-box {
+  transition: ease-in-out 0.5s;
+}
+.chanel-selected {
+  background-color: gray;
+}
+
+.displayNone{
+  display: none;
+}
+
+/* style="background-image: url(&quot;loss_style1_V7.png&quot;); */
